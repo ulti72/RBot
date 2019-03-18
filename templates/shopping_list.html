@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel = "stylesheet" href = "/stylesheets/syles.css">
+</head>
+<body>
+<header>
+<div class = "header">
+     <h1>THE</h1>
+     <p>RecruitBot</p>
+</div>
+</header>
+<form method="post">
+  <input type= "submit" name="excel" value="Score">
+</form>
+
+
+<div class="box">
+<iframe
+    allow="microphone;"
+    frameborder="0"
+    width="30%"
+    scrolling="no"
+    height="700"
+     padding:"4px"
+    align="left"
+    src="https://console.dialogflow.com/api-client/demo/embedded/99272d81-c832-484e-9a4c-c8636b5662a7">
+</iframe>
+</div>
+
+      <div class="box" id= "excel">
+
+<iframe
+    width="60%"
+    scrolling="no"
+    height="700"
+    padding:"4px"
+    align="right"
+    src="https://docs.google.com/spreadsheets/d/15d8jJejNJItHLZtTHC4BROFnEOHkp4IjlPJ1R0n6qw8/edit?usp=sharing">
+</iframe>
+</div>
+
+<button onclick="myFunction()">Excel</button>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("excel");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+</html>
+
+
